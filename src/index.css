@@ -1,3 +1,23 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+  @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+body, #root{
+  background-color: rgb(60, 52, 52);
+  width: 100vw;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  overflow-x: hidden;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1{
+  font-family:'Agbalumo' ;
+}
